@@ -8,8 +8,10 @@ Subpackages
    :maxdepth: 4
 
    superduperdb.ext.anthropic
+   superduperdb.ext.auto
    superduperdb.ext.cohere
    superduperdb.ext.jina
+   superduperdb.ext.llamacpp
    superduperdb.ext.llm
    superduperdb.ext.numpy
    superduperdb.ext.openai
@@ -19,6 +21,7 @@ Subpackages
    superduperdb.ext.torch
    superduperdb.ext.transformers
    superduperdb.ext.unstructured
+   superduperdb.ext.vllm
 
 Submodules
 ----------

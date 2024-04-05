@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="superduperdb.ext.numpy package" href="superduperdb.ext.numpy.html" /><link rel="prev" title="superduperdb.ext.jina package" href="superduperdb.ext.jina.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="superduperdb.ext.numpy package" href="superduperdb.ext.numpy.html" /><link rel="prev" title="superduperdb.ext.llamacpp package" href="superduperdb.ext.llamacpp.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
         <title>superduperdb.ext.llm package - Python documentation</title>
@@ -162,7 +162,6 @@
 <li class="toctree-l2 current has-children"><a class="reference internal" href="superduperdb.html">superduperdb package</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of superduperdb package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l3 has-children"><a class="reference internal" href="superduperdb.backends.html">superduperdb.backends package</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of superduperdb.backends package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.backends.base.html">superduperdb.backends.base package</a></li>
-<li class="toctree-l4"><a class="reference internal" href="superduperdb.backends.dask.html">superduperdb.backends.dask package</a></li>
 <li class="toctree-l4 has-children"><a class="reference internal" href="superduperdb.backends.ibis.html">superduperdb.backends.ibis package</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of superduperdb.backends.ibis package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l5"><a class="reference internal" href="superduperdb.backends.ibis.cdc.html">superduperdb.backends.ibis.cdc package</a></li>
 </ul>
@@ -181,8 +180,10 @@
 <li class="toctree-l3"><a class="reference internal" href="superduperdb.components.html">superduperdb.components package</a></li>
 <li class="toctree-l3 current has-children"><a class="reference internal" href="superduperdb.ext.html">superduperdb.ext package</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of superduperdb.ext package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.anthropic.html">superduperdb.ext.anthropic package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.auto.html">superduperdb.ext.auto package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.cohere.html">superduperdb.ext.cohere package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.jina.html">superduperdb.ext.jina package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.llamacpp.html">superduperdb.ext.llamacpp package</a></li>
 <li class="toctree-l4 current current-page"><a class="current reference internal" href="#">superduperdb.ext.llm package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.numpy.html">superduperdb.ext.numpy package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.openai.html">superduperdb.ext.openai package</a></li>
@@ -192,6 +193,7 @@
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.torch.html">superduperdb.ext.torch package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.transformers.html">superduperdb.ext.transformers package</a></li>
 <li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.unstructured.html">superduperdb.ext.unstructured package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="superduperdb.ext.vllm.html">superduperdb.ext.vllm package</a></li>
 </ul>
 </li>
 <li class="toctree-l3 has-children"><a class="reference internal" href="superduperdb.misc.html">superduperdb.misc package</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of superduperdb.misc package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -246,23 +248,11 @@
 <section id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">#</a></h2>
 </section>
-<section id="superduperdb-ext-llm-base-module">
-<h2>superduperdb.ext.llm.base module<a class="headerlink" href="#superduperdb-ext-llm-base-module" title="Link to this heading">#</a></h2>
-</section>
 <section id="superduperdb-ext-llm-model-module">
 <h2>superduperdb.ext.llm.model module<a class="headerlink" href="#superduperdb-ext-llm-model-module" title="Link to this heading">#</a></h2>
 </section>
-<section id="superduperdb-ext-llm-openai-module">
-<h2>superduperdb.ext.llm.openai module<a class="headerlink" href="#superduperdb-ext-llm-openai-module" title="Link to this heading">#</a></h2>
-</section>
-<section id="superduperdb-ext-llm-training-module">
-<h2>superduperdb.ext.llm.training module<a class="headerlink" href="#superduperdb-ext-llm-training-module" title="Link to this heading">#</a></h2>
-</section>
-<section id="superduperdb-ext-llm-utils-module">
-<h2>superduperdb.ext.llm.utils module<a class="headerlink" href="#superduperdb-ext-llm-utils-module" title="Link to this heading">#</a></h2>
-</section>
-<section id="superduperdb-ext-llm-vllm-module">
-<h2>superduperdb.ext.llm.vllm module<a class="headerlink" href="#superduperdb-ext-llm-vllm-module" title="Link to this heading">#</a></h2>
+<section id="superduperdb-ext-llm-prompter-module">
+<h2>superduperdb.ext.llm.prompter module<a class="headerlink" href="#superduperdb-ext-llm-prompter-module" title="Link to this heading">#</a></h2>
 </section>
 <section id="module-contents">
 <h2>Module contents<a class="headerlink" href="#module-contents" title="Link to this heading">#</a></h2>
@@ -283,14 +273,14 @@
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="superduperdb.ext.jina.html">
+          <a class="prev-page" href="superduperdb.ext.llamacpp.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">superduperdb.ext.jina package</div>
+                <div class="title">superduperdb.ext.llamacpp package</div>
                 
               </div>
             </a>
@@ -326,12 +316,8 @@
             <ul>
 <li><a class="reference internal" href="#">superduperdb.ext.llm package</a><ul>
 <li><a class="reference internal" href="#submodules">Submodules</a></li>
-<li><a class="reference internal" href="#superduperdb-ext-llm-base-module">superduperdb.ext.llm.base module</a></li>
 <li><a class="reference internal" href="#superduperdb-ext-llm-model-module">superduperdb.ext.llm.model module</a></li>
-<li><a class="reference internal" href="#superduperdb-ext-llm-openai-module">superduperdb.ext.llm.openai module</a></li>
-<li><a class="reference internal" href="#superduperdb-ext-llm-training-module">superduperdb.ext.llm.training module</a></li>
-<li><a class="reference internal" href="#superduperdb-ext-llm-utils-module">superduperdb.ext.llm.utils module</a></li>
-<li><a class="reference internal" href="#superduperdb-ext-llm-vllm-module">superduperdb.ext.llm.vllm module</a></li>
+<li><a class="reference internal" href="#superduperdb-ext-llm-prompter-module">superduperdb.ext.llm.prompter module</a></li>
 <li><a class="reference internal" href="#module-contents">Module contents</a></li>
 </ul>
 </li>
